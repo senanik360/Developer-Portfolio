@@ -142,7 +142,7 @@ section {
 }
 
 .what-i-do-section {
-    text-align: center;
+  text-align: center;
   margin-top: 130px;
 }
 .skill-container {
@@ -177,37 +177,66 @@ section {
 }
 
 /* resume style */
-.resume-content{
-    display: flex;
-    gap: 24px;
+.resume-content {
+  display: flex;
+  gap: 24px;
 }
-.resume .title{
-    font-weight: 700;
-font-size: 25px;
-line-height: 34px;
-color: #474747;
-margin-bottom: 10px;
+.resume .title {
+  font-weight: 700;
+  font-size: 25px;
+  line-height: 34px;
+  color: #474747;
+  margin-bottom: 10px;
+}
+.resume .sub-title {
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 27px;
+  color: #757575;
+  margin-bottom: 20px;
+}
+.resume .description {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 28px;
+  color: #757575;
+}
+.resume-item {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+.resume-button {
+  text-align: center;
+  margin-top: 50px;
+}
+/* contact style */
 
+.contact .section-title {
+  text-align: left;
 }
-.resume .sub-title{
-    font-weight: 600;
-    font-size: 20px;
-    line-height: 27px;
-    color: #757575;
-    margin-bottom: 20px;
+.contact {
+  display: flex;
+  gap: 100px;
 
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 28px;
+
+  color: #474747;
+  background: #FFF8F3;
+
+  padding: 130px 200px;
 }
-.resume .description{
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 28px;  
-    color: #757575;
+.contact input[type="text"], input[type="email"] ,textarea{
+    margin-top: 24px;
+    border: 0;
+    width: 100%;
+    padding: 18px 30px;
 }
-.resume-item{
-    margin-top: 30px;
-    margin-bottom: 30px;
+
+input{
+    height: 64px;
 }
-.resume-button{
-    text-align: center;
-    margin-top: 50px;
+.contact a{
+    text-decoration: none;
 }
