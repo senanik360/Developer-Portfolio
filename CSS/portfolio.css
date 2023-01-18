@@ -12,6 +12,18 @@
   background: #fd6e0a;
   border-radius: 5px;
 }
+.btn-contact {
+  color:  #fd6e0a;
+  height: 64px;
+  font-weight: 700;
+  font-size: 20px;
+  border: 10;
+  border-color: #fd6e0a;
+  margin-left: 10px;
+  padding: 18px 35px;
+  background: hsl(0, 0%, 100%);
+  border-radius: 5px;
+}
 /* header and navigation styles */
 .header {
   background: #fff8f3;
